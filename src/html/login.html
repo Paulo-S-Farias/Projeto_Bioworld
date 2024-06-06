@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../script/script.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="start">
+        <form id="form">
+         <h1 class="title">Login</h1>
+
+         <div class="infos">
+            <label>Nome:</label>
+            <br>
+            <input type="text" placeholder="insira o seu nome" class="inputBox required" oninput="nameValidate()">
+            <span class="span">Nome deve ter no minimo <br>3 caracteres</span>
+            <br>
+            <label>sobrenome</label>
+            <br>
+            <input type="text" placeholder="insira seu sobrenome" class="inputBox required" id="lastName" oninput="lastNameValidate()">
+            <span class="span">Sobrenome deve ter no minimo <br>3 caracteres</span>
+            <br>
+            <label>Email:</label>
+            <br>
+            <input type="email" placeholder="insira o seu email" class="inputBox required" id="email" oninput="emailValidate()">
+            <span class="span">Selecione seu email completo</span>
+            <br>
+            <label>Senha:</label>
+            <br>
+            <input type="password" placeholder="insira sua senha" class="inputBox required" id="password" oninput="passwordValidation()">
+            <span class="span">Sua senha deve conter<br> pelo menos 8 digitos</span>
+            <br>
+            <label>Endereço</label>
+            <br>
+            <input type="text" placeholder="Insira seu endereço" class="inputBox" id="address">
+            <br>
+            <button class="send" id="send" onclick="botao()">Enviar</button>
+            <a href="../../index.html">Inicio</a>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

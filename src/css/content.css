@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(207, 252, 218);
+}
+
+.bioworld{
+ display: flex;
+ align-items: center;
+ background-color: rgb(76, 238, 130);
+ padding: 20px 10px ;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.login {
+    color:aliceblue;
+    padding: 5px 8px;
+    margin-left: 600px;
+    background-color: rgb(16, 196, 73);
+    border: 2px solid rgb(16, 196, 73);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login:hover {
+    background-color: rgb(13, 167, 61);
+    border-color: rgb(13, 167, 61);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    border-top: dotted black;
+    background-color: rgb(76, 238, 130);
+    padding: 20px 10px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: large;
+}
+
+.start {
+    color:aliceblue;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content {
+    color:aliceblue;
+    margin-right: 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.aboutUs {
+    color:aliceblue;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
